@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'ModernPictogramsNormal';
+    src: url('modernpics-webfont.eot');
+    src: url('modernpics-webfont.eot?#iefix') format('embedded-opentype'),
+    url('modernpics-webfont.woff') format('woff'),
+    url('modernpics-webfont.ttf') format('truetype'),
+    url('modernpics-webfont.svg#ModernPictogramsNormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+[data-icon]:before {
+    font-family: 'ModernPictogramsNormal';
+    content: attr(data-icon);
+    speak: none;
+    padding:0 5px;
+}

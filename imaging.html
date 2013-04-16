@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Foundation 4</title>
+    <link rel="stylesheet" href="css/foundation.css"/>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/app.css" />
+
+    <script src="js/vendor/custom.modernizr.js"></script>
+
+</head>
+<body class="">
+<div class="">
+    <nav class="top-bar">
+        <ul class="title-area">
+            <!-- Title Area -->
+            <li class="name">
+                <a class="logo" href="#"><h1>imagequick</h1></a>
+            </li>
+            <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+            <!-- Left Nav Section -->
+
+
+            <!-- Right Nav Section -->
+            <ul class="right">
+                <li><a href="#">Login</a></li>
+            </ul>
+        </section>
+    </nav>
+</div>
+<div class="fluid">
+    <div class="row" style="width: 100%;min-width: 100%">
+        <div class="small-12">
+            <div class="sticky">
+                <div class="small-2 fixed columns sidebar">
+                    <div class="query clearfix">
+
+                        <p class="main">99.6 My FM</p>
+                        <p>Ninieties and Now</p>
+                        <button class="button secondary tiny right">Change</button>
+                    </div>
+                    <b>Sort By</b>
+                    <div class="row">
+                        <form class="custom" action="">
+
+                            <div class="row" id="sloganselectrow">
+                                <div class="small-12 large-12 columns">
+                                    <select id="sloganselect" class="small">
+                                        <option>Length</option>
+                                        <option>Rating</option>
+                                        <option>Date Added</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                    <b>Filter By</b>
+                    <div class="row">
+                        <div class="large-12 columns">
+                            <div class="row collapse">
+                                <div class="small-9 columns">
+                                    <input type="text" placeholder="Enter the Tag">
+                                </div>
+                                <div class="small-3 columns">
+                                    <span class="postfix radius">Tag</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <b>My Cart</b>
+                    <div class="row">
+                        <div class="large12">
+                            <div class="cart">
+                                <ul class="itemlist">
+                                    <li class="clearfix">
+                                        <p class="title left">Announcer</p><p class="close right">X</p>
+                                        <p class="left desc">MyFM - Nineties and Now - 88.9</p>
+                                    </li>
+                                    <li class="clearfix">
+                                        <p class="title left">Ooga</p><p class="close right">X</p>
+                                        <p class="left desc">MyFM -Eighties Nineties and Now - 88.9</p>
+                                    </li>
+                                    <li class="clearfix">
+                                        <p class="title left">Announcer</p><p class="close right">X</p>
+                                        <p class="left desc">MyFM - Nineties and Now - 88.9</p>
+                                    </li><li class="clearfix">
+                                        <p class="title left">Announcer</p><p class="close right">X</p>
+                                        <p class="left desc">MyFM - Nineties and Now - 88.9</p>
+                                    </li><li class="clearfix">
+                                        <p class="title left">Announcer</p><p class="close right">X</p>
+                                        <p class="left desc">MyFM - Nineties and Now - 88.9</p>
+                                    </li><li class="clearfix">
+                                        <p class="title left">Announcer</p><p class="close right">X</p>
+                                        <p class="left desc">MyFM - Nineties and Now - 88.9</p>
+                                    </li><li class="clearfix">
+                                        <p class="title left">Announcer</p><p class="close right">X</p>
+                                        <p class="left desc">MyFM - Nineties and Now - 88.9</p>
+                                    </li><li class="clearfix">
+                                        <p class="title left">Announcer</p><p class="close right">X</p>
+                                        <p class="left desc">MyFM - Nineties and Now - 88.9</p>
+                                    </li><li class="clearfix">
+                                        <p class="title left">Announcer</p><p class="close right">X</p>
+                                        <p class="left desc">MyFM - Nineties and Now - 88.9</p>
+                                    </li>
+                                </ul>
+                                <div class="cartbuttons">
+                                    <button class="button tiny right secondary">Checkout</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="small-10 columns right">
+                <div class="results">
+                    <div class="row result">
+                        <div class="small-2 columns image"><img src="http://placehold.it/110x110&text=template" alt=""/></div>
+                        <div class="small-2 columns">
+                            <div class="row">
+                                <h2>Announcer</h2>
+                                <p class="length">14 sec</p>
+                                <p><b>Producer:</b> GT</p>
+                            </div>
+                        </div>
+                        <div class="small-8 columns">
+                            <form class="custom" action="">
+                                <div class="row">
+                                    <div class="small-4 columns">
+                                        <div class="small-4 large-4 columns">
+                                            <label class="right inline" for="customDropdown1">Station</label>
+                                        </div>
+                                        <div class="small-8 large-8 columns">
+                                            <select id="sloVoiceSelect" class="small">
+                                                <option>Sam</option>
+                                                <option>Gary</option>
+                                                <option>Lisa</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="small-4 columns">
+                                        <div class="small-4 large-4 columns">
+                                            <label class="right inline" for="customDropdown1">Frequency</label>
+                                        </div>
+                                        <div class="small-8 large-8 columns">
+                                            <select id="sloVoiceSelect" class="small">
+                                                <option>Sam</option>
+                                                <option>Gary</option>
+                                                <option>Lisa</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="small-4 columns">
+                                        <div class="small-4 large-4 columns">
+                                            <label class="right inline" for="customDropdown1">Slogan</label>
+                                        </div>
+                                        <div class="small-8 large-8 columns">
+                                            <select id="sloVoiceSelect" class="small">
+                                                <option>Sam</option>
+                                                <option>Gary</option>
+                                                <option>Lisa</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+                            <div class="row waveform">
+                                <div class="waveformback">
+                                    <div class="waveformmain">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row right buttons">
+                                <button class="button tiny secondary">Play</button>
+                                <button class="button tiny cartbutton ">Add To Cart</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row result">
+                        <div class="small-2 columns image"><img src="http://placehold.it/110x110&text=template" alt=""/></div>
+                        <div class="small-2 columns">
+                            <div class="row">
+                                <h2>Announcer</h2>
+                                <p class="length">14 sec</p>
+                                <p><b>Producer:</b> GT</p>
+                            </div>
+                        </div>
+                        <div class="small-8 columns">
+                            <form class="custom" action="">
+                                <div class="row">
+                                    <div class="small-4 columns">
+                                        <div class="small-4 large-4 columns">
+                                            <label class="right inline" for="customDropdown1">Station</label>
+                                        </div>
+                                        <div class="small-8 large-8 columns">
+                                            <select id="sloVoiceSelect" class="small">
+                                                <option>Sam</option>
+                                                <option>Gary</option>
+                                                <option>Lisa</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="small-4 columns">
+                                        <div class="small-4 large-4 columns">
+                                            <label class="right inline" for="customDropdown1">Frequency</label>
+                                        </div>
+                                        <div class="small-8 large-8 columns">
+                                            <select id="sloVoiceSelect" class="small">
+                                                <option>Sam</option>
+                                                <option>Gary</option>
+                                                <option>Lisa</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="small-4 columns">
+                                        <div class="small-4 large-4 columns">
+                                            <label class="right inline" for="customDropdown1">Slogan</label>
+                                        </div>
+                                        <div class="small-8 large-8 columns">
+                                            <select id="sloVoiceSelect" class="small">
+                                                <option>Sam</option>
+                                                <option>Gary</option>
+                                                <option>Lisa</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+                            <div class="row waveform">
+                                <div class="waveformback">
+                                    <div class="waveformmain">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row right buttons">
+                                <button class="button tiny secondary">Play</button>
+                                <button class="button tiny cartbutton ">Add To Cart</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row result">
+                        <div class="small-2 columns image"><img src="http://placehold.it/110x110&text=template" alt=""/></div>
+                        <div class="small-2 columns">
+                            <div class="row">
+                                <h2>Announcer</h2>
+                                <p class="length">14 sec</p>
+                                <p><b>Producer:</b> GT</p>
+                            </div>
+                        </div>
+                        <div class="small-8 columns">
+                            <form class="custom" action="">
+                                <div class="row">
+                                    <div class="small-4 columns">
+                                        <div class="small-4 large-4 columns">
+                                            <label class="right inline" for="customDropdown1">Station</label>
+                                        </div>
+                                        <div class="small-8 large-8 columns">
+                                            <select id="sloVoiceSelect" class="small">
+                                                <option>Sam</option>
+                                                <option>Gary</option>
+                                                <option>Lisa</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="small-4 columns">
+                                        <div class="small-4 large-4 columns">
+                                            <label class="right inline" for="customDropdown1">Frequency</label>
+                                        </div>
+                                        <div class="small-8 large-8 columns">
+                                            <select id="sloVoiceSelect" class="small">
+                                                <option>Sam</option>
+                                                <option>Gary</option>
+                                                <option>Lisa</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="small-4 columns">
+                                        <div class="small-4 large-4 columns">
+                                            <label class="right inline" for="customDropdown1">Slogan</label>
+                                        </div>
+                                        <div class="small-8 large-8 columns">
+                                            <select id="sloVoiceSelect" class="small">
+                                                <option>Sam</option>
+                                                <option>Gary</option>
+                                                <option>Lisa</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+                            <div class="row waveform">
+                                <div class="waveformback">
+                                    <div class="waveformmain">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row right buttons">
+                                <button class="button tiny secondary">Play</button>
+                                <button class="button tiny cartbutton ">Add To Cart</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row result">
+                        <div class="small-2 columns image"><img src="http://placehold.it/110x110&text=template" alt=""/></div>
+                        <div class="small-2 columns">
+                            <div class="row">
+                                <h2>Announcer</h2>
+                                <p class="length">14 sec</p>
+                                <p><b>Producer:</b> GT</p>
+                            </div>
+                        </div>
+                        <div class="small-8 columns">
+                            <form class="custom" action="">
+                                <div class="row">
+                                    <div class="small-4 columns">
+                                        <div class="small-4 large-4 columns">
+                                            <label class="right inline" for="customDropdown1">Station</label>
+                                        </div>
+                                        <div class="small-8 large-8 columns">
+                                            <select id="sloVoiceSelect" class="small">
+                                                <option>Sam</option>
+                                                <option>Gary</option>
+                                                <option>Lisa</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="small-4 columns">
+                                        <div class="small-4 large-4 columns">
+                                            <label class="right inline" for="customDropdown1">Frequency</label>
+                                        </div>
+                                        <div class="small-8 large-8 columns">
+                                            <select id="sloVoiceSelect" class="small">
+                                                <option>Sam</option>
+                                                <option>Gary</option>
+                                                <option>Lisa</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="small-4 columns">
+                                        <div class="small-4 large-4 columns">
+                                            <label class="right inline" for="customDropdown1">Slogan</label>
+                                        </div>
+                                        <div class="small-8 large-8 columns">
+                                            <select id="sloVoiceSelect" class="small">
+                                                <option>Sam</option>
+                                                <option>Gary</option>
+                                                <option>Lisa</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+                            <div class="row waveform">
+                                <div class="waveformback">
+                                    <div class="waveformmain">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row right buttons">
+                                <button class="button tiny secondary">Play</button>
+                                <button class="button tiny cartbutton ">Add To Cart</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row result">
+                        <div class="small-2 columns image"><img src="http://placehold.it/110x110&text=template" alt=""/></div>
+                        <div class="small-2 columns">
+                            <div class="row">
+                                <h2>Announcer</h2>
+                                <p class="length">14 sec</p>
+                                <p><b>Producer:</b> GT</p>
+                            </div>
+                        </div>
+                        <div class="small-8 columns">
+                            <form class="custom" action="">
+                                <div class="row">
+                                    <div class="small-4 columns">
+                                        <div class="small-4 large-4 columns">
+                                            <label class="right inline" for="customDropdown1">Station</label>
+                                        </div>
+                                        <div class="small-8 large-8 columns">
+                                            <select id="sloVoiceSelect" class="small">
+                                                <option>Sam</option>
+                                                <option>Gary</option>
+                                                <option>Lisa</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="small-4 columns">
+                                        <div class="small-4 large-4 columns">
+                                            <label class="right inline" for="customDropdown1">Frequency</label>
+                                        </div>
+                                        <div class="small-8 large-8 columns">
+                                            <select id="sloVoiceSelect" class="small">
+                                                <option>Sam</option>
+                                                <option>Gary</option>
+                                                <option>Lisa</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="small-4 columns">
+                                        <div class="small-4 large-4 columns">
+                                            <label class="right inline" for="customDropdown1">Slogan</label>
+                                        </div>
+                                        <div class="small-8 large-8 columns">
+                                            <select id="sloVoiceSelect" class="small">
+                                                <option>Sam</option>
+                                                <option>Gary</option>
+                                                <option>Lisa</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+                            <div class="row waveform">
+                                <div class="waveformback">
+                                    <div class="waveformmain">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row right buttons">
+                                <button class="button tiny secondary">Play</button>
+                                <button class="button tiny cartbutton ">Add To Cart</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row result">
+                        <div class="small-2 columns image"><img src="http://placehold.it/110x110&text=template" alt=""/></div>
+                        <div class="small-2 columns">
+                            <div class="row">
+                                <h2>Announcer</h2>
+                                <p class="length">14 sec</p>
+                                <p><b>Producer:</b> GT</p>
+                            </div>
+                        </div>
+                        <div class="small-8 columns">
+                            <form class="custom" action="">
+                                <div class="row">
+                                    <div class="small-4 columns">
+                                        <div class="small-4 large-4 columns">
+                                            <label class="right inline" for="customDropdown1">Station</label>
+                                        </div>
+                                        <div class="small-8 large-8 columns">
+                                            <select id="sloVoiceSelect" class="small">
+                                                <option>Sam</option>
+                                                <option>Gary</option>
+                                                <option>Lisa</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="small-4 columns">
+                                        <div class="small-4 large-4 columns">
+                                            <label class="right inline" for="customDropdown1">Frequency</label>
+                                        </div>
+                                        <div class="small-8 large-8 columns">
+                                            <select id="sloVoiceSelect" class="small">
+                                                <option>Sam</option>
+                                                <option>Gary</option>
+                                                <option>Lisa</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="small-4 columns">
+                                        <div class="small-4 large-4 columns">
+                                            <label class="right inline" for="customDropdown1">Slogan</label>
+                                        </div>
+                                        <div class="small-8 large-8 columns">
+                                            <select id="sloVoiceSelect" class="small">
+                                                <option>Sam</option>
+                                                <option>Gary</option>
+                                                <option>Lisa</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+                            <div class="row waveform">
+                                <div class="waveformback">
+                                    <div class="waveformmain">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row right buttons">
+                                <button class="button tiny secondary">Play</button>
+                                <button class="button tiny cartbutton ">Add To Cart</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row result">
+                        <div class="small-2 columns image"><img src="http://placehold.it/110x110&text=template" alt=""/></div>
+                        <div class="small-2 columns">
+                            <div class="row">
+                                <h2>Announcer</h2>
+                                <p class="length">14 sec</p>
+                                <p><b>Producer:</b> GT</p>
+                            </div>
+                        </div>
+                        <div class="small-8 columns">
+                            <form class="custom" action="">
+                                <div class="row">
+                                    <div class="small-4 columns">
+                                        <div class="small-4 large-4 columns">
+                                            <label class="right inline" for="customDropdown1">Station</label>
+                                        </div>
+                                        <div class="small-8 large-8 columns">
+                                            <select id="sloVoiceSelect" class="small">
+                                                <option>Sam</option>
+                                                <option>Gary</option>
+                                                <option>Lisa</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="small-4 columns">
+                                        <div class="small-4 large-4 columns">
+                                            <label class="right inline" for="customDropdown1">Frequency</label>
+                                        </div>
+                                        <div class="small-8 large-8 columns">
+                                            <select id="sloVoiceSelect" class="small">
+                                                <option>Sam</option>
+                                                <option>Gary</option>
+                                                <option>Lisa</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="small-4 columns">
+                                        <div class="small-4 large-4 columns">
+                                            <label class="right inline" for="customDropdown1">Slogan</label>
+                                        </div>
+                                        <div class="small-8 large-8 columns">
+                                            <select id="sloVoiceSelect" class="small">
+                                                <option>Sam</option>
+                                                <option>Gary</option>
+                                                <option>Lisa</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+                            <div class="row waveform">
+                                <div class="waveformback">
+                                    <div class="waveformmain">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row right buttons">
+                                <button class="button tiny secondary">Play</button>
+                                <button class="button tiny cartbutton ">Add To Cart</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row result">
+                        <div class="small-2 columns image"><img src="http://placehold.it/110x110&text=template" alt=""/></div>
+                        <div class="small-2 columns">
+                            <div class="row">
+                                <h2>Announcer</h2>
+                                <p class="length">14 sec</p>
+                                <p><b>Producer:</b> GT</p>
+                            </div>
+                        </div>
+                        <div class="small-8 columns">
+                            <form class="custom" action="">
+                                <div class="row">
+                                    <div class="small-4 columns">
+                                        <div class="small-4 large-4 columns">
+                                            <label class="right inline" for="customDropdown1">Station</label>
+                                        </div>
+                                        <div class="small-8 large-8 columns">
+                                            <select id="sloVoiceSelect" class="small">
+                                                <option>Sam</option>
+                                                <option>Gary</option>
+                                                <option>Lisa</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="small-4 columns">
+                                        <div class="small-4 large-4 columns">
+                                            <label class="right inline" for="customDropdown1">Frequency</label>
+                                        </div>
+                                        <div class="small-8 large-8 columns">
+                                            <select id="sloVoiceSelect" class="small">
+                                                <option>Sam</option>
+                                                <option>Gary</option>
+                                                <option>Lisa</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="small-4 columns">
+                                        <div class="small-4 large-4 columns">
+                                            <label class="right inline" for="customDropdown1">Slogan</label>
+                                        </div>
+                                        <div class="small-8 large-8 columns">
+                                            <select id="sloVoiceSelect" class="small">
+                                                <option>Sam</option>
+                                                <option>Gary</option>
+                                                <option>Lisa</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+                            <div class="row waveform">
+                                <div class="waveformback">
+                                    <div class="waveformmain">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row right buttons">
+                                <button class="button tiny secondary">Play</button>
+                                <button class="button tiny cartbutton ">Add To Cart</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row result">
+                        <div class="small-2 columns image"><img src="http://placehold.it/110x110&text=template" alt=""/></div>
+                        <div class="small-2 columns">
+                            <div class="row">
+                                <h2>Announcer</h2>
+                                <p class="length">14 sec</p>
+                                <p><b>Producer:</b> GT</p>
+                            </div>
+                        </div>
+                        <div class="small-8 columns">
+                            <form class="custom" action="">
+                                <div class="row">
+                                    <div class="small-4 columns">
+                                        <div class="small-4 large-4 columns">
+                                            <label class="right inline" for="customDropdown1">Station</label>
+                                        </div>
+                                        <div class="small-8 large-8 columns">
+                                            <select id="sloVoiceSelect" class="small">
+                                                <option>Sam</option>
+                                                <option>Gary</option>
+                                                <option>Lisa</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="small-4 columns">
+                                        <div class="small-4 large-4 columns">
+                                            <label class="right inline" for="customDropdown1">Frequency</label>
+                                        </div>
+                                        <div class="small-8 large-8 columns">
+                                            <select id="sloVoiceSelect" class="small">
+                                                <option>Sam</option>
+                                                <option>Gary</option>
+                                                <option>Lisa</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="small-4 columns">
+                                        <div class="small-4 large-4 columns">
+                                            <label class="right inline" for="customDropdown1">Slogan</label>
+                                        </div>
+                                        <div class="small-8 large-8 columns">
+                                            <select id="sloVoiceSelect" class="small">
+                                                <option>Sam</option>
+                                                <option>Gary</option>
+                                                <option>Lisa</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+                            <div class="row waveform">
+                                <div class="waveformback">
+                                    <div class="waveformmain">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row right buttons">
+                                <button class="button tiny secondary">Play</button>
+                                <button class="button tiny cartbutton ">Add To Cart</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- At the bottom of your page but inside of the body tag -->
+<ol class="joyride-list" data-joyride>
+    <li data-text="Start">
+        <p>Lets have a brief walkthrough of How to use imagequick</p>
+    </li>                                                                                      12
+    <li data-id="formatselectrow" data-options="tipLocation:top;tipAnimation:fade" data-text="Next">
+        <h4>Format</h4>
+        <p>Choose the format you want the imaging or Promo for and click "Next"</p>
+    </li>
+    <li data-id="frequencyselectrow" data-options="tipLocation:top;tipAnimation:fade" data-text="Next">
+        <h4>Frequency</h4>
+        <p>Choose your frequency and click "Next"</p>
+        <p> " . " says 'point' and "-" gives a small pause</p>
+    </li>
+    <li data-id="stationselectrow" data-button="Next" data-options="tipLocation:top;tipAnimation:fade">
+        <h4>Station Name</h4>
+        <p>What's your station's name ? It should be here .. Choose it and click "Next"</p>
+    </li>
+    <li data-id="sloganselectrow" data-button="Next" data-options="tipLocation:top;tipAnimation:fade">
+        <h4>Slogan</h4>
+        <p>Pick your slogan..and click "Next" </p>
+    </li>
+    <li data-id="imaging" data-button="Next" data-options="tipLocation:right;tipAnimation:fade">
+        <h4>Fing Imaging</h4>
+        <p>If you are looking for imaging with voice overs.. click here if you need promos click "Next" </p>
+    </li>
+    <li data-id="promos" data-button="Next" data-options="tipLocation:right;tipAnimation:fade">
+        <h4>Music Promos</h4>
+        <p>If you are looking for music promos with voice overs.. click here </p>
+    </li>
+</ol>
+<script>
+    document.write('<script src=' +
+            ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+            '.js><\/script>')
+</script>
+<script src="js/foundation/foundation.js"></script>
+<script src="js/foundation/foundation.alerts.js"></script>
+<script src="js/foundation/foundation.clearing.js"></script>
+<script src="js/foundation/foundation.cookie.js"></script>
+<script src="js/foundation/foundation.dropdown.js"></script>
+<script src="js/foundation/foundation.forms.js"></script>
+<script src="js/foundation/foundation.joyride.js"></script>
+<script src="js/foundation/foundation.magellan.js"></script>
+<script src="js/foundation/foundation.orbit.js"></script>
+<script src="js/foundation/foundation.placeholder.js"></script>
+<script src="js/foundation/foundation.reveal.js"></script>
+<script src="js/foundation/foundation.section.js"></script>
+<script src="js/foundation/foundation.tooltips.js"></script>
+<script src="js/foundation/foundation.topbar.js"></script>
+<script>
+    $(document).foundation();
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('#walkme').click(function(){
+            $(document).foundation('joyride', 'start');
+        });
+        $('.close').click(function(){
+            $(this).closest('li').toggle();
+        });
+
+    });
+
+</script>
+</body>
+</html>
